@@ -68,9 +68,9 @@ imageList = [
     },
     {
         id: 0,
-        thumbSource: "files/artwork/cg/thumbnails/Chess 02_thumb.jpg",
+        thumbSource: "files/artwork/cg/thumbnails/Chess_2_thumb.jpg",
         imgClass: "obj-pos-center",
-        fullSource: "files/artwork/cg/Chess 02.png",
+        fullSource: "files/artwork/cg/Chess_2.png",
         infoHeading: "Chess Set 2",
         infoDescription: "The chess set I created to practice modeling.",
         softwareUsed: "<li>Blender 3</li>",
@@ -78,9 +78,9 @@ imageList = [
     },
     {
         id: 0,
-        thumbSource: "files/artwork/cg/thumbnails/Chess 01_thumb.jpg",
+        thumbSource: "files/artwork/cg/thumbnails/Chess_1_thumb.jpg",
         imgClass: "obj-pos-center",
-        fullSource: "files/artwork/cg/Chess 01.png",
+        fullSource: "files/artwork/cg/Chess_1.png",
         infoHeading: "Chess Set 1",
         infoDescription: "The chess set I created to practice modeling.",
         softwareUsed: "<li>Blender 3</li>",
