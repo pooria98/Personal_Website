@@ -386,6 +386,7 @@ nextBtn.addEventListener('click', function () {
         } else {
             fullImg.style.display = 'block';
             fullVid.style.display = 'none';
+            fullImg.src = "";
             fullImg.src = imageList[currentId].fullSource;
             fullImg.addEventListener('load', function () {
                 loader.style.display = 'none';
@@ -410,6 +411,7 @@ prevBtn.addEventListener('click', function () {
         } else {
             fullImg.style.display = 'block';
             fullVid.style.display = 'none';
+            fullImg.src = "";
             fullImg.src = imageList[currentId].fullSource;
             fullImg.addEventListener('load', function () {
                 loader.style.display = 'none';
