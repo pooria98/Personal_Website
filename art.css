@@ -1,0 +1,202 @@
+::-webkit-scrollbar {
+    width: 0.5rem;
+    background: #444;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 0.25rem;
+}
+
+/* PHOTO GRID */
+.photo-grid {
+    display: grid;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.photo-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.photo-grid img:hover {
+    filter: brightness(120%);
+    transform: scale(1.05);
+}
+
+.obj-pos-left {
+    object-position: left;
+}
+
+.obj-pos-right {
+    object-position: right;
+}
+
+.obj-pos-top {
+    object-position: top;
+}
+
+.obj-pos-bottom {
+    object-position: bottom;
+}
+
+.obj-pos-center {
+    object-position: center;
+}
+
+@media (min-width: 341px) {
+    .photo-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-auto-rows: 150px;
+    }
+}
+
+@media (min-width: 576px) {
+    .photo-grid {
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        grid-auto-rows: 240px;
+    }
+}
+
+/* PHOTO GRID */
+
+/* MODAL */
+.modal-overlay {
+    position: fixed;
+    z-index: 900;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #101014;
+    color: #fff;
+    display: none;
+}
+
+.close-btn-container {
+    position: absolute;
+    z-index: 903;
+    top: 0;
+    right: 0;
+}
+
+.close-btn {
+    color: #97979b;
+    font-size: 3rem;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.nav-btns-container {
+    position: absolute;
+    z-index: 903;
+    top: calc(50% - 1rem);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prev-btn,
+.next-btn {
+    color: rgba(151, 151, 155, 0.5);
+    font-size: 2rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.info-btn-container {
+    position: absolute;
+    z-index: 903;
+    top: 0;
+    left: 0;
+}
+
+.info-btn {
+    color: #97979b;
+    font-size: 2.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.close-btn:hover,
+.info-btn:hover,
+.prev-btn:hover,
+.next-btn:hover {
+    color: #eee;
+}
+
+.image-container {
+    position: absolute;
+    z-index: 901;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.full-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.full-vid {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.info-container {
+    position: absolute;
+    z-index: 902;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 4rem 1rem 1rem;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    display: none;
+}
+
+.info-btn.show {
+    color: gold;
+}
+
+.info-container.show {
+    display: block;
+}
+
+.separator {
+    width: 80%;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #fff;
+    margin: 1rem auto;
+}
+
+@media (min-width: 768px) {
+    .info-container {
+        width: 400px;
+    }
+
+    .nav-btns-container {
+        top: calc(50% - 1.5rem);
+    }
+
+    .prev-btn,
+    .next-btn {
+        font-size: 3rem;
+        padding: 1rem;
+    }
+}
+
+/* MODAL */
