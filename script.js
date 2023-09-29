@@ -328,6 +328,7 @@ const infoContainer = document.querySelector('.info-container');
 const infoTitle = document.querySelector('.info-title');
 const infoDesc = document.querySelector('.info-desc');
 const softwareContainer = document.querySelector('.software-container');
+const loader = document.querySelector('.loader');
 
 const closeBtn = document.querySelector('.close-btn');
 const infoBtn = document.querySelector('.info-btn');
@@ -340,6 +341,7 @@ thumbnails.forEach(thumbnail => {
     thumbnail.addEventListener("click", function () {
         document.body.style.overflow = 'hidden';
         modal.style.display = 'block';
+        loader.style.display = 'flex';
         for (let i = 0; i < imageList.length; i++) {
             if (thumbnail.id == imageList[i].id) {
                 currentId = imageList[i].id;
@@ -347,10 +349,14 @@ thumbnails.forEach(thumbnail => {
                     fullImg.style.display = 'none';
                     fullVid.style.display = 'block';
                     fullVid.src = imageList[i].fullSource;
+                    loader.style.display = 'none';
                 } else {
                     fullImg.style.display = 'block';
                     fullVid.style.display = 'none';
                     fullImg.src = imageList[i].fullSource;
+                    fullImg.addEventListener('load', function () {
+                        loader.style.display = 'none';
+                    });
                 }
                 infoTitle.innerHTML = imageList[i].infoHeading;
                 infoDesc.innerHTML = imageList[i].infoDescription;
@@ -364,20 +370,26 @@ thumbnails.forEach(thumbnail => {
 closeBtn.addEventListener('click', function () {
     document.body.style.overflow = 'auto';
     modal.style.display = 'none';
+    loader.style.display = 'none';
 });
 
 // next button
 nextBtn.addEventListener('click', function () {
     if (currentId < imageList.length - 1) {
         currentId++;
+        loader.style.display = 'flex';
         if (imageList[currentId].isVideo) {
             fullImg.style.display = 'none';
             fullVid.style.display = 'block';
             fullVid.src = imageList[currentId].fullSource;
+            loader.style.display = 'none';
         } else {
             fullImg.style.display = 'block';
             fullVid.style.display = 'none';
             fullImg.src = imageList[currentId].fullSource;
+            fullImg.addEventListener('load', function () {
+                loader.style.display = 'none';
+            });
         }
         infoTitle.innerHTML = imageList[currentId].infoHeading;
         infoDesc.innerHTML = imageList[currentId].infoDescription;
@@ -389,14 +401,19 @@ nextBtn.addEventListener('click', function () {
 prevBtn.addEventListener('click', function () {
     if (currentId > 0) {
         currentId--;
+        loader.style.display = 'flex';
         if (imageList[currentId].isVideo) {
             fullImg.style.display = 'none';
             fullVid.style.display = 'block';
             fullVid.src = imageList[currentId].fullSource;
+            loader.style.display = 'none';
         } else {
             fullImg.style.display = 'block';
             fullVid.style.display = 'none';
             fullImg.src = imageList[currentId].fullSource;
+            fullImg.addEventListener('load', function () {
+                loader.style.display = 'none';
+            });
         }
         infoTitle.innerHTML = imageList[currentId].infoHeading;
         infoDesc.innerHTML = imageList[currentId].infoDescription;
