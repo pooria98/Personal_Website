@@ -392,7 +392,7 @@ nextBtn.addEventListener('click', function () {
                 fullImg.addEventListener('load', function () {
                     loader.style.display = 'none';
                 });
-            }, 1000);
+            }, 200);
         }
         infoTitle.innerHTML = imageList[currentId].infoHeading;
         infoDesc.innerHTML = imageList[currentId].infoDescription;
@@ -419,7 +419,7 @@ prevBtn.addEventListener('click', function () {
                 fullImg.addEventListener('load', function () {
                     loader.style.display = 'none';
                 });
-            }, 1000);
+            }, 200);
         }
         infoTitle.innerHTML = imageList[currentId].infoHeading;
         infoDesc.innerHTML = imageList[currentId].infoDescription;
