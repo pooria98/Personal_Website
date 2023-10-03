@@ -50,7 +50,7 @@ imageList = [
         id: 0,
         thumbSource: "files/artwork/cg/thumbnails/LOGO_thumb.jpg",
         imgClass: "obj-pos-center",
-        fullSource: "files/artwork/cg/LOGO.png",
+        fullSource: "files/artwork/cg/LOGO.jpg",
         infoHeading: "Logo",
         infoDescription: "My first logo for my website and socials.",
         softwareUsed: "<li>Blender 3</li>",
@@ -70,7 +70,7 @@ imageList = [
         id: 0,
         thumbSource: "files/artwork/cg/thumbnails/blackset_thumb.jpg",
         imgClass: "obj-pos-center",
-        fullSource: "files/artwork/cg/blackset.png",
+        fullSource: "files/artwork/cg/blackset.jpg",
         infoHeading: "Chess Set 2",
         infoDescription: "The chess set I created to practice modeling.",
         softwareUsed: "<li>Blender 3</li>",
@@ -80,7 +80,7 @@ imageList = [
         id: 0,
         thumbSource: "files/artwork/cg/thumbnails/whiteset_thumb.jpg",
         imgClass: "obj-pos-center",
-        fullSource: "files/artwork/cg/whiteset.png",
+        fullSource: "files/artwork/cg/whiteset.jpg",
         infoHeading: "Chess Set 1",
         infoDescription: "The chess set I created to practice modeling.",
         softwareUsed: "<li>Blender 3</li>",
@@ -90,7 +90,7 @@ imageList = [
         id: 0,
         thumbSource: "files/artwork/cg/thumbnails/Shomal_house (4)_thumb.jpg",
         imgClass: "obj-pos-center",
-        fullSource: "files/artwork/cg/Shomal_house (4).png",
+        fullSource: "files/artwork/cg/Shomal_house (4).jpg",
         infoHeading: "Villa Redesign",
         infoDescription: "Indoor architecture redesign of a real villa. I did this to pre-visualize the changes to the house.",
         softwareUsed: "<li>Blender 3</li>",
@@ -100,7 +100,7 @@ imageList = [
         id: 0,
         thumbSource: "files/artwork/cg/thumbnails/Shomal_house (3)_thumb.jpg",
         imgClass: "obj-pos-center",
-        fullSource: "files/artwork/cg/Shomal_house (3).png",
+        fullSource: "files/artwork/cg/Shomal_house (3).jpg",
         infoHeading: "Villa Redesign",
         infoDescription: "Indoor architecture redesign of a real villa. I did this to pre-visualize the changes to the house.",
         softwareUsed: "<li>Blender 3</li>",
@@ -110,7 +110,7 @@ imageList = [
         id: 0,
         thumbSource: "files/artwork/cg/thumbnails/Shomal_house (2)_thumb.jpg",
         imgClass: "obj-pos-center",
-        fullSource: "files/artwork/cg/Shomal_house (2).png",
+        fullSource: "files/artwork/cg/Shomal_house (2).jpg",
         infoHeading: "Villa Redesign",
         infoDescription: "Indoor architecture redesign of a real villa. I did this to pre-visualize the changes to the house.",
         softwareUsed: "<li>Blender 3</li>",
@@ -120,7 +120,7 @@ imageList = [
         id: 0,
         thumbSource: "files/artwork/cg/thumbnails/Shomal_house (1)_thumb.jpg",
         imgClass: "obj-pos-center",
-        fullSource: "files/artwork/cg/Shomal_house (1).png",
+        fullSource: "files/artwork/cg/Shomal_house (1).jpg",
         infoHeading: "Villa Redesign",
         infoDescription: "Indoor architecture redesign of a real villa. I did this to pre-visualize the changes to the house.",
         softwareUsed: "<li>Blender 3</li>",
@@ -150,7 +150,7 @@ imageList = [
         id: 0,
         thumbSource: "files/artwork/cg/thumbnails/Metro_4_thumb.jpg",
         imgClass: "obj-pos-center",
-        fullSource: "files/artwork/cg/Metro_4.png",
+        fullSource: "files/artwork/cg/Metro_4.jpg",
         infoHeading: "Tehran Metro 4",
         infoDescription: "Tehran subway station recreation in 3D. everything is made from scratch.",
         softwareUsed: "<li>Blender 2.9</li><li>Substance Painter</li>",
@@ -160,7 +160,7 @@ imageList = [
         id: 0,
         thumbSource: "files/artwork/cg/thumbnails/Metro_3_thumb.jpg",
         imgClass: "obj-pos-center",
-        fullSource: "files/artwork/cg/Metro_3.png",
+        fullSource: "files/artwork/cg/Metro_3.jpg",
         infoHeading: "Tehran Metro 3",
         infoDescription: "Tehran subway station recreation in 3D. everything is made from scratch.",
         softwareUsed: "<li>Blender 2.9</li><li>Substance Painter</li>",
@@ -170,7 +170,7 @@ imageList = [
         id: 0,
         thumbSource: "files/artwork/cg/thumbnails/Metro_2_thumb.jpg",
         imgClass: "obj-pos-center",
-        fullSource: "files/artwork/cg/Metro_2.png",
+        fullSource: "files/artwork/cg/Metro_2.jpg",
         infoHeading: "Tehran Metro 2",
         infoDescription: "Tehran subway station recreation in 3D. everything is made from scratch.",
         softwareUsed: "<li>Blender 2.9</li><li>Substance Painter</li>",
@@ -180,7 +180,7 @@ imageList = [
         id: 0,
         thumbSource: "files/artwork/cg/thumbnails/Metro_1_thumb.jpg",
         imgClass: "obj-pos-center",
-        fullSource: "files/artwork/cg/Metro_1.png",
+        fullSource: "files/artwork/cg/Metro_1.jpg",
         infoHeading: "Tehran Metro 1",
         infoDescription: "Tehran subway station recreation in 3D. everything is made from scratch.",
         softwareUsed: "<li>Blender 2.9</li><li>Substance Painter</li>",
@@ -200,7 +200,7 @@ imageList = [
         id: 0,
         thumbSource: "files/artwork/cg/thumbnails/Mushroom_thumb.jpg",
         imgClass: "obj-pos-right",
-        fullSource: "files/artwork/cg/Mushroom.png",
+        fullSource: "files/artwork/cg/Mushroom.jpg",
         infoHeading: "Happy Mushroom",
         infoDescription: "A happy mushroom smiling at the sun. wait... mushrums don't like the sun.",
         softwareUsed: "<li>Blender 2.8</li><li>Photoshop</li>",
@@ -220,7 +220,7 @@ imageList = [
         id: 0,
         thumbSource: "files/artwork/cg/thumbnails/Topo_Landscape_Contrast_thumb.jpg",
         imgClass: "obj-pos-center",
-        fullSource: "files/artwork/cg/Topo_Landscape_Contrast.png",
+        fullSource: "files/artwork/cg/Topo_Landscape_Contrast.jpg",
         infoHeading: "Topographic Landscape",
         infoDescription: "Playing with blender's modifiers to create some procedural stuff",
         softwareUsed: "<li>Blender 2.8</li>",
@@ -230,7 +230,7 @@ imageList = [
         id: 0,
         thumbSource: "files/artwork/cg/thumbnails/Saber02_thumb.jpg",
         imgClass: "obj-pos-top",
-        fullSource: "files/artwork/cg/Saber02.png",
+        fullSource: "files/artwork/cg/Saber02.jpg",
         infoHeading: "Light Saber 2",
         infoDescription: "Simple low poly hard surface modeling exercise.",
         softwareUsed: "<li>Blender 2.8</li><li>Substance Painter</li>",
@@ -240,7 +240,7 @@ imageList = [
         id: 0,
         thumbSource: "files/artwork/cg/thumbnails/Saber01_thumb.jpg",
         imgClass: "obj-pos-top",
-        fullSource: "files/artwork/cg/Saber01.png",
+        fullSource: "files/artwork/cg/Saber01.jpg",
         infoHeading: "Light Saber 1",
         infoDescription: "Simple low poly hard surface modeling exercise.",
         softwareUsed: "<li>Blender 2.8</li><li>Substance Painter</li>",
@@ -250,7 +250,7 @@ imageList = [
         id: 0,
         thumbSource: "files/artwork/cg/thumbnails/Lego_thumb.jpg",
         imgClass: "obj-pos-center",
-        fullSource: "files/artwork/cg/Lego.png",
+        fullSource: "files/artwork/cg/Lego.jpg",
         infoHeading: "Lego man",
         infoDescription: "Simple low poly hard surface modeling exercise.",
         softwareUsed: "<li>Blender 2.8</li>",
@@ -260,7 +260,7 @@ imageList = [
         id: 0,
         thumbSource: "files/artwork/cg/thumbnails/Mjolnir_2_thumb.jpg",
         imgClass: "obj-pos-center",
-        fullSource: "files/artwork/cg/Mjolnir_2.png",
+        fullSource: "files/artwork/cg/Mjolnir_2.jpg",
         infoHeading: "Mjolnir 2",
         infoDescription: "I did this project to improve my hard surface modeling skills. The special thing about this one is that it's the first project that involved advanced procedural and hand painted texturing. this was also my first substance painter project. this one has some extra ornaments and emissive sign.",
         softwareUsed: "<li>Blender 2.79</li><li>Substance Painter</li>",
@@ -270,7 +270,7 @@ imageList = [
         id: 0,
         thumbSource: "files/artwork/cg/thumbnails/Mjolnir_1_thumb.jpg",
         imgClass: "obj-pos-bottom",
-        fullSource: "files/artwork/cg/Mjolnir_1.png",
+        fullSource: "files/artwork/cg/Mjolnir_1.jpg",
         infoHeading: "Mjolnir 1",
         infoDescription: "I did this project to improve my hard surface modeling skills. The special thing about this one is that it's the first project that involved advanced procedural and hand painted texturing. this was also my first substance painter project.",
         softwareUsed: "<li>Blender 2.79</li><li>Substance Painter</li>",
@@ -392,7 +392,7 @@ nextBtn.addEventListener('click', function () {
                 fullImg.addEventListener('load', function () {
                     loader.style.display = 'none';
                 });
-            }, 200);
+            }, 100);
         }
         infoTitle.innerHTML = imageList[currentId].infoHeading;
         infoDesc.innerHTML = imageList[currentId].infoDescription;
@@ -419,7 +419,7 @@ prevBtn.addEventListener('click', function () {
                 fullImg.addEventListener('load', function () {
                     loader.style.display = 'none';
                 });
-            }, 200);
+            }, 100);
         }
         infoTitle.innerHTML = imageList[currentId].infoHeading;
         infoDesc.innerHTML = imageList[currentId].infoDescription;
