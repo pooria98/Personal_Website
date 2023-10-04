@@ -240,15 +240,6 @@ nav {
     transition: 0.3s;
 }
 
-.youtube:hover {
-    box-shadow: 0 0 2rem red;
-}
-.youtube:hover i {
-    text-shadow: 0 0 2rem red;
-}
-.youtube:hover h2 {
-    text-shadow: 0 0 2rem red;
-}
 
 .instagram:hover {
     box-shadow: 0 0 2rem violet;
@@ -260,42 +251,22 @@ nav {
     text-shadow: 0 0 2rem violet;
 }
 
-.twitter:hover {
-    box-shadow: 0 0 2rem #00acee ;
+.telegram:hover {
+    box-shadow: 0 0 2rem #0088CC;
 }
-.twitter:hover i {
-    text-shadow: 0 0 2rem #00acee ;
+.telegram:hover i {
+    text-shadow: 0 0 2rem #0088CC;
 }
-.twitter:hover h2 {
-    text-shadow: 0 0 2rem #00acee ;
-}
-
-.artstation:hover {
-    box-shadow: 0 0 2rem #0065b2;
-}
-.artstation:hover i {
-    text-shadow: 0 0 2rem #0065b2;
-}
-.artstation:hover h2 {
-    text-shadow: 0 0 2rem #0065b2;
+.telegram:hover h2 {
+    text-shadow: 0 0 2rem #0088CC;
 }
 
-.deviantart:hover {
-    box-shadow: 0 0 2rem #05C644;
+.linkedin:hover {
+    box-shadow: 0 0 2rem #004da4;
 }
-.deviantart:hover i {
-    text-shadow: 0 0 2rem #05C644;
+.linkedin:hover i {
+    text-shadow: 0 0 2rem #004da4;
 }
-.deviantart:hover h2 {
-    text-shadow: 0 0 2rem #05C644;
-}
-
-.patreon:hover {
-    box-shadow: 0 0 2rem #f96854;
-}
-.patreon:hover i {
-    text-shadow: 0 0 2rem #f96854;
-}
-.patreon:hover h2 {
-    text-shadow: 0 0 2rem #f96854;
+.linkedin:hover h2 {
+    text-shadow: 0 0 2rem #004da4;
 }

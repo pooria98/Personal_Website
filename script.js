@@ -52,7 +52,7 @@ imageList = [
         imgClass: "obj-pos-center",
         fullSource: "files/artwork/cg/LOGO.jpg",
         infoHeading: "Logo",
-        infoDescription: "My first logo for my website and socials.",
+        infoDescription: "My first logo for my website.",
         softwareUsed: "<li>Blender 3</li>",
         isVideo: false
     },
